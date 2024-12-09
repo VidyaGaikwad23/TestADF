@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "pipeline_copy_wait",
 	"properties": {
 		"activities": [
 			{
@@ -16,6 +16,15 @@
 				"userProperties": [],
 				"typeProperties": {
 					"enableStaging": false
+				}
+			},
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
 				}
 			}
 		],
