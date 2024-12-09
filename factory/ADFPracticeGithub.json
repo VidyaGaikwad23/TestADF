@@ -1,0 +1,9 @@
+{
+	"name": "ADFPracticeGithub",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "192bac7f-f21a-424b-bab1-600115580e55",
+		"tenantId": "11bdc317-fca3-401b-98dc-9846255ff127"
+	}
+}
